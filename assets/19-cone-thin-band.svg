@@ -2,7 +2,7 @@
   <feDropShadow dx="0" dy="6" stdDeviation="7" flood-opacity=".22"/></filter></defs>
     <g filter="url(#dropS)">
       <g transform="translate(40,22) scale(2)"><path d="M4 102 C34 94 62 60 86 16 Q92 26 100 21 Q108 26 114 16 C138 60 166 94 196 102 L196 120 Q196 126 190 126 L10 126 Q4 126 4 120 Z" fill="#ffffff" stroke="#ffffff" stroke-width="11" stroke-linejoin="round"/></g>
-      <path d="M132 132 h216 l-17 47 l17 47 h-216 l17 -47 z" fill="#ffffff" stroke="#ffffff" stroke-width="22" stroke-linejoin="round"/>
+      <path d="M138 132 h204 l-16 47 l16 47 h-204 l16 -47 z" fill="#ffffff" stroke="#ffffff" stroke-width="22" stroke-linejoin="round"/>
       <g transform="translate(40,22) scale(2,2)">
     <defs><clipPath id="y13"><path d="M4 102 C34 94 62 60 86 16 Q92 26 100 21 Q108 26 114 16 C138 60 166 94 196 102 L196 120 Q196 126 190 126 L10 126 Q4 126 4 120 Z"/></clipPath></defs>
     <path d="M4 102 C34 94 62 60 86 16 Q92 26 100 21 Q108 26 114 16 C138 60 166 94 196 102 L196 120 Q196 126 190 126 L10 126 Q4 126 4 120 Z" fill="#2F5249"/>
@@ -11,7 +11,7 @@
       <path d="M100 22 C104 48 112 76 124 102"/><path d="M96 22 C90 50 80 78 66 102"/>
       <path d="M100 24 C101 52 102 78 102 102"/></g>
   </g>
-      <path d="M132 132 h216 l-17 47 l17 47 h-216 l17 -47 z" fill="#F6F1EA" stroke="#2F5249" stroke-width="2"/>
+      <path d="M138 132 h204 l-16 47 l16 47 h-204 l16 -47 z" fill="#F6F1EA" stroke="#2F5249" stroke-width="2"/>
     </g>
     <image href="file:///workspace/nn-merch/wm-teal.png" x="164.0" y="141" width="152" height="60.8"/>
     <text x="240" y="218" font-family="'Noto Sans JP'" font-weight="900" font-size="13" fill="#2F5249" text-anchor="middle" letter-spacing="4">ニセコノマド</text>
