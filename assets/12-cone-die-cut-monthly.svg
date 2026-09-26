@@ -2,7 +2,7 @@
   <feDropShadow dx="0" dy="6" stdDeviation="7" flood-opacity=".22"/></filter></defs>
     <g filter="url(#dropS)">
       <g transform="translate(40,44) scale(2)"><path d="M4 102 C34 94 62 60 86 16 Q92 26 100 21 Q108 26 114 16 C138 60 166 94 196 102 L196 150 Q196 158 188 158 L12 158 Q4 158 4 150 Z" fill="#ffffff" stroke="#ffffff" stroke-width="11" stroke-linejoin="round"/></g>
-      <g transform="translate(40,44) scale(2)">
+      <g transform="translate(40,44) scale(2,2)">
     <defs><clipPath id="y7"><path d="M4 102 C34 94 62 60 86 16 Q92 26 100 21 Q108 26 114 16 C138 60 166 94 196 102 L196 150 Q196 158 188 158 L12 158 Q4 158 4 150 Z"/></clipPath></defs>
     <path d="M4 102 C34 94 62 60 86 16 Q92 26 100 21 Q108 26 114 16 C138 60 166 94 196 102 L196 150 Q196 158 188 158 L12 158 Q4 158 4 150 Z" fill="#2F5249"/>
     <g clip-path="url(#y7)"><path d="M0 26 L34 40 L42 56 L50 43 L58 62 L66 48 L74 68 L82 52 L90 66 L98 50 L106 70 L114 52 L122 64 L130 46 L138 60 L146 44 L154 52 L166 38 L200 26 L200 0 L0 0 Z" fill="#B0DCE2"/></g>

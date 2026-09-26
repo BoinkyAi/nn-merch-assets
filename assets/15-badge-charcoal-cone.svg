@@ -9,7 +9,7 @@
     <path d="M240 42 a168 168 0 1 1 -.1 0 z" fill="#ffffff" stroke="#ffffff" stroke-width="28" stroke-linejoin="round"/>
     <path d="M240 42 a168 168 0 1 1 -.1 0 z" fill="#141414"/>
   </g>
-      <g clip-path="url(#b4c)"><g transform="translate(90,92) scale(1.5)">
+      <g clip-path="url(#b4c)"><g transform="translate(90,92) scale(1.5,1.5)">
     <defs><clipPath id="y9"><path d="M4 102 C34 94 62 60 86 16 Q92 26 100 21 Q108 26 114 16 C138 60 166 94 196 102 Z"/></clipPath></defs>
     <path d="M4 102 C34 94 62 60 86 16 Q92 26 100 21 Q108 26 114 16 C138 60 166 94 196 102 Z" fill="#242424"/>
     <g clip-path="url(#y9)"><path d="M0 26 L34 40 L42 56 L50 43 L58 62 L66 48 L74 68 L82 52 L90 66 L98 50 L106 70 L114 52 L122 64 L130 46 L138 60 L146 44 L154 52 L166 38 L200 26 L200 0 L0 0 Z" fill="#3e3e3e"/></g>
