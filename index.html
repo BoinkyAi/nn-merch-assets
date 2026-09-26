@@ -33,6 +33,10 @@
   button[aria-pressed="true"]{background:var(--teal);color:#fff;border-color:var(--teal)}
 
   .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:22px}
+  .group{margin-bottom:40px}
+  .ghead{margin:0 0 16px;padding-bottom:10px;border-bottom:1px solid var(--line)}
+  .gt{font-size:20px;font-weight:800;color:var(--teal);letter-spacing:-.2px;margin-bottom:3px}
+  .ghead p{font-size:13px;color:var(--muted);line-height:1.5}
   .card{background:var(--card);border:1px solid var(--line);border-radius:16px;
         padding:16px;display:flex;flex-direction:column}
   .tile{background:var(--tile);border-radius:11px;padding:22px;display:flex;
@@ -70,7 +74,7 @@
   <div>
     <h1>Niseko Nomads — Merch Assets</h1>
   </div>
-  <p>Nine sticker designs, all built on the master wordmark and Mt Yotei. Each one is a
+  <p>Eighteen sticker designs, grouped by shell so the variants sit together. Each one is a
      transparent PNG plus the SVG a printer will want. The die-cut white border is part of
      the artwork — that is where the cut line goes.</p>
 </header>
@@ -83,7 +87,7 @@
   <button data-bg="dark" aria-pressed="false">Dark</button>
 </div>
 
-<div class="grid" id="stickers"></div>
+<div id="stickers"></div>
 
 <div class="band"><h2>Contact sheets</h2><span></span></div>
 <div class="sheets" id="sheets"></div>
@@ -108,25 +112,35 @@
 </div>
 
 <script>
-const STICKERS = [
-  ['01-badge-monthly-accommodation','Badge · Monthly accommodation','75 mm circle · katakana arc up top, HOKKAIDO · JAPAN below'],
-  ['02-badge-stay-a-month-or-more','Badge · Stay a month or more','75 mm circle · same badge, the other line'],
-  ['03-circle-crest-white','Circle crest · white','75 mm circle · white body, all-green ink, ice-blue cap'],
-  ['04-circle-crest-stay-a-month','Circle crest · stay a month or more','75 mm circle · place line under the wordmark'],
-  ['05-cone-die-cut','Cone die-cut','80 × 70 mm · cut to the mountain, plinth carries the words'],
-  ['06-stacked-crest','Stacked crest','75 × 65 mm · framed shell, message band swaps'],
-  ['07-pow-days-only','Pow Days Only','90 × 70 mm patch · one month with Niseko Nomads'],
-  ['08-ski-work-repeat','One month of Ski · Work · Repeat','100 × 55 mm strip'],
-  ['09-pow-days-tag','I only get out of bed on pow days','95 × 65 mm tag · charcoal'],
-  ['10-cone-die-cut-katakana','Cone die-cut · katakana','Same sticker with ニセコノマド under the banner'],
-  ['11-circle-crest-katakana-arc','Circle crest · katakana arc','ニセコノマド curved above the wordmark'],
-  ['12-cone-die-cut-monthly','Cone die-cut · monthly accommodation','Katakana version with the other line'],
-  ['13-badge-charcoal','Badge · charcoal','マンスリーステイ up top, HOKKAIDO · JAPAN below'],
-  ['14-cone-die-cut-month-long','Cone die-cut · month long','Katakana version, MONTH LONG ACCOMMODATION'],
-  ['15-badge-charcoal-cone','Badge · charcoal, sharp cone','Same badge on the flared Yotei cone, not the rounded one'],
-  ['16-badge-charcoal-disc','Badge · charcoal, rising disc','Sharp cone with the ice disc rising behind it'],
-  ['17-badge-green-disc','Badge · green, rising disc','Cream disc behind a teal cone, ice-blue snowcap'],
-  ['18-badge-white-disc','Badge · white, rising disc','White body, green ink, cream disc, ice-blue snowcap'],
+const GROUPS = [
+  ['Solid round badges', 'Filled circle, katakana on the top arc, place line on the bottom arc', [
+    ['01-badge-monthly-accommodation','Badge · Monthly accommodation','75 mm circle · teal, rounded mountain'],
+    ['02-badge-stay-a-month-or-more','Badge · Stay a month or more','75 mm circle · same badge, the other line'],
+    ['13-badge-charcoal','Badge · charcoal','Charcoal body, rounded mountain, マンスリーステイ'],
+    ['15-badge-charcoal-cone','Badge · charcoal, sharp cone','Same badge on the flared Yotei cone'],
+  ]],
+  ['Rising-disc badges', 'Same badge shell with a disc rising behind the sharp cone', [
+    ['16-badge-charcoal-disc','Badge · charcoal, rising disc','Charcoal body, ice disc'],
+    ['17-badge-green-disc','Badge · green, rising disc','Cream disc behind a teal cone, ice-blue snowcap'],
+    ['18-badge-white-disc','Badge · white, rising disc','White body, green ink, cream disc, ice-blue snowcap'],
+  ]],
+  ['Outline circle crests', 'White body, all-green ink, thin double ring — the light-weight round option', [
+    ['03-circle-crest-white','Circle crest · white','75 mm circle · HOKKAIDO · JAPAN on the bottom arc'],
+    ['04-circle-crest-stay-a-month','Circle crest · stay a month or more','Place line under the wordmark'],
+    ['11-circle-crest-katakana-arc','Circle crest · katakana arc','ニセコノマド curved above the wordmark'],
+  ]],
+  ['Cone die-cuts', 'Cut to the mountain itself, plinth carries the words', [
+    ['05-cone-die-cut','Cone die-cut','80 × 70 mm · HOKKAIDO, JAPAN'],
+    ['10-cone-die-cut-katakana','Cone die-cut · katakana','ニセコノマド under the banner'],
+    ['12-cone-die-cut-monthly','Cone die-cut · monthly accommodation','Katakana version, MONTHLY ACCOMMODATION'],
+    ['14-cone-die-cut-month-long','Cone die-cut · month long','Katakana version, MONTH LONG ACCOMMODATION'],
+  ]],
+  ['Patches, strips and tags', 'Rectangular shells — the ones that carry a slogan', [
+    ['06-stacked-crest','Stacked crest','75 × 65 mm · framed shell, message band swaps'],
+    ['07-pow-days-only','Pow Days Only','90 × 70 mm patch · one month with Niseko Nomads'],
+    ['08-ski-work-repeat','One month of Ski · Work · Repeat','100 × 55 mm strip'],
+    ['09-pow-days-tag','I only get out of bed on pow days','95 × 65 mm tag · charcoal'],
+  ]],
 ];
 const SHEETS = [
   ['stickers6','All nine together','The full set on one sheet'],
@@ -149,7 +163,11 @@ const card = (slug, title, note, svg) => `
     </div>
   </div>`;
 
-stickers.innerHTML = STICKERS.map(([s, t, n]) => card(s, t, n, true)).join('');
+stickers.innerHTML = GROUPS.map(([title, note, items]) => `
+  <div class="group">
+    <div class="ghead"><h3 class="gt">${title}</h3><p>${note}</p></div>
+    <div class="grid">${items.map(([s, t, n]) => card(s, t, n, true)).join('')}</div>
+  </div>`).join('');
 logos.innerHTML = LOGOS.map(([s, t, n]) => card(s, t, n, false)).join('');
 sheets.innerHTML = SHEETS.map(([s, t, n]) => `
   <div class="card">
