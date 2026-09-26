@@ -10,7 +10,7 @@
       <circle cx="240" cy="210" r="142" fill="none" stroke="#2F5249" stroke-width="1.6" stroke-opacity=".55"/>
       
       <image href="file:///workspace/nn-merch/wm-teal.png" x="144.0" y="88" width="192" height="76.8"/>
-      <text x="240" y="186" font-family="'Noto Sans JP'" font-weight="900" font-size="16" fill="#2F5249" text-anchor="middle" letter-spacing="5">ニセコノマド</text>
+      <text x="240" y="186" font-family="'Noto Sans JP'" font-weight="900" font-size="16" fill="#2F5249" text-anchor="middle" letter-spacing="5">マンスリーステイ</text>
       <g transform="translate(158,196) scale(0.82)">
     <defs><clipPath id="y1"><path d="M4 102 C34 94 62 60 86 16 Q92 26 100 21 Q108 26 114 16 C138 60 166 94 196 102 Z"/></clipPath></defs>
     <path d="M4 102 C34 94 62 60 86 16 Q92 26 100 21 Q108 26 114 16 C138 60 166 94 196 102 Z" fill="#2F5249"/>

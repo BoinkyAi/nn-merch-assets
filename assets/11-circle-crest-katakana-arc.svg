@@ -9,7 +9,7 @@
       <circle cx="240" cy="210" r="156" fill="none" stroke="#2F5249" stroke-width="5"/>
       <circle cx="240" cy="210" r="142" fill="none" stroke="#2F5249" stroke-width="1.6" stroke-opacity=".55"/>
       <text font-family="'Noto Sans JP'" font-weight="900" font-size="19" fill="#2F5249" letter-spacing="8">
-        <textPath href="#c3k" startOffset="50%" text-anchor="middle">ニセコノマド</textPath></text>
+        <textPath href="#c3k" startOffset="50%" text-anchor="middle">マンスリーステイ</textPath></text>
       <image href="file:///workspace/nn-merch/wm-teal.png" x="150.0" y="112" width="180" height="72.0"/>
       <text x="240" y="206" font-family="Montserrat" font-weight="800" font-size="15" fill="#2F5249" text-anchor="middle" letter-spacing="5">HOKKAIDO, JAPAN</text>
       <g transform="translate(166,213) scale(0.74)">
