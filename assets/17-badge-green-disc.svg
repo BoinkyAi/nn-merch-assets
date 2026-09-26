@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1260" viewBox="0 0 480 420"><defs><filter id="dropS" x="-30%" y="-30%" width="160%" height="160%">
+  <feDropShadow dx="0" dy="6" stdDeviation="7" flood-opacity=".22"/></filter></defs>
+    <defs>
+      <path id="b6t" d="M 240 210 m -124 0 a 124 124 0 0 1 248 0" fill="none"/>
+      <path id="b6b" d="M 240 210 m -132 0 a 132 132 0 0 0 264 0" fill="none"/>
+      <clipPath id="b6c"><circle cx="240" cy="210" r="168"/></clipPath>
+    </defs>
+    <g filter="url(#dropS)">
+    <path d="M240 42 a168 168 0 1 1 -.1 0 z" fill="#ffffff" stroke="#ffffff" stroke-width="28" stroke-linejoin="round"/>
+    <path d="M240 42 a168 168 0 1 1 -.1 0 z" fill="#2F5249"/>
+  </g>
+      <g clip-path="url(#b6c)"><circle cx="240" cy="138" r="46" fill="#B0DCE2"/><g transform="translate(90,92) scale(1.5)">
+    <defs><clipPath id="y11"><path d="M4 102 C34 94 62 60 86 16 Q92 26 100 21 Q108 26 114 16 C138 60 166 94 196 102 Z"/></clipPath></defs>
+    <path d="M4 102 C34 94 62 60 86 16 Q92 26 100 21 Q108 26 114 16 C138 60 166 94 196 102 Z" fill="#2F5249"/>
+    <g clip-path="url(#y11)"><path d="M0 26 L34 40 L42 56 L50 43 L58 62 L66 48 L74 68 L82 52 L90 66 L98 50 L106 70 L114 52 L122 64 L130 46 L138 60 L146 44 L154 52 L166 38 L200 26 L200 0 L0 0 Z" fill="#F6F1EA"/></g>
+    <g clip-path="url(#y11)" stroke="#2F5249" stroke-width="1.6" stroke-opacity=".5" fill="none">
+      <path d="M100 22 C104 48 112 76 124 102"/><path d="M96 22 C90 50 80 78 66 102"/>
+      <path d="M100 24 C101 52 102 78 102 102"/></g>
+  </g></g>
+      <circle cx="240" cy="210" r="154" fill="none" stroke="#F6F1EA" stroke-width="5"/>
+      <circle cx="240" cy="210" r="142" fill="none" stroke="#B0DCE2" stroke-width="1.5" stroke-opacity=".75"/>
+      <text font-family="'Noto Sans JP'" font-weight="900" font-size="22" fill="#F6F1EA" letter-spacing="8">
+        <textPath href="#b6t" startOffset="50%" text-anchor="middle">マンスリーステイ</textPath></text>
+      
+      <image href="file:///workspace/nn-merch/wm-cream.png" x="145.0" y="175" width="190" height="76.0"/>
+      <text x="240" y="276" font-family="Montserrat" font-weight="900" font-size="18" fill="#F6F1EA" text-anchor="middle" letter-spacing="2">MONTH LONG</text><text x="240" y="296" font-family="Montserrat" font-weight="900" font-size="18" fill="#F6F1EA" text-anchor="middle" letter-spacing="2">ACCOMMODATION</text>
+      <text font-family="Montserrat" font-weight="800" font-size="11" fill="#B0DCE2" letter-spacing="2">
+        <textPath href="#b6b" startOffset="50%" text-anchor="middle">HOKKAIDO · JAPAN</textPath></text>
+  </svg>
