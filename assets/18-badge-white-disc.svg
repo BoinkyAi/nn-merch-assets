@@ -9,10 +9,10 @@
     <path d="M240 42 a168 168 0 1 1 -.1 0 z" fill="#ffffff" stroke="#ffffff" stroke-width="28" stroke-linejoin="round"/>
     <path d="M240 42 a168 168 0 1 1 -.1 0 z" fill="#ffffff"/>
   </g>
-      <g clip-path="url(#b7c)"><circle cx="240" cy="138" r="46" fill="#B0DCE2"/><g transform="translate(90,92) scale(1.5)">
+      <g clip-path="url(#b7c)"><circle cx="240" cy="138" r="46" fill="#F6F1EA"/><g transform="translate(90,92) scale(1.5)">
     <defs><clipPath id="y12"><path d="M4 102 C34 94 62 60 86 16 Q92 26 100 21 Q108 26 114 16 C138 60 166 94 196 102 Z"/></clipPath></defs>
     <path d="M4 102 C34 94 62 60 86 16 Q92 26 100 21 Q108 26 114 16 C138 60 166 94 196 102 Z" fill="#2F5249"/>
-    <g clip-path="url(#y12)"><path d="M0 26 L34 40 L42 56 L50 43 L58 62 L66 48 L74 68 L82 52 L90 66 L98 50 L106 70 L114 52 L122 64 L130 46 L138 60 L146 44 L154 52 L166 38 L200 26 L200 0 L0 0 Z" fill="#ffffff"/></g>
+    <g clip-path="url(#y12)"><path d="M0 26 L34 40 L42 56 L50 43 L58 62 L66 48 L74 68 L82 52 L90 66 L98 50 L106 70 L114 52 L122 64 L130 46 L138 60 L146 44 L154 52 L166 38 L200 26 L200 0 L0 0 Z" fill="#B0DCE2"/></g>
     <g clip-path="url(#y12)" stroke="#ffffff" stroke-width="1.6" stroke-opacity=".5" fill="none">
       <path d="M100 22 C104 48 112 76 124 102"/><path d="M96 22 C90 50 80 78 66 102"/>
       <path d="M100 24 C101 52 102 78 102 102"/></g>
