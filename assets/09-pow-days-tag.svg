@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1260" viewBox="0 0 480 420"><defs><filter id="dropS" x="-30%" y="-30%" width="160%" height="160%">
+  <feDropShadow dx="0" dy="6" stdDeviation="7" flood-opacity=".22"/></filter></defs>
+    <g filter="url(#dropS)">
+    <path d="M96 56 h316 a20 20 0 0 1 20 20 v208 a20 20 0 0 1 -20 20 h-316 l-48 -124 z" fill="#ffffff" stroke="#ffffff" stroke-width="28" stroke-linejoin="round"/>
+    <path d="M96 56 h316 a20 20 0 0 1 20 20 v208 a20 20 0 0 1 -20 20 h-316 l-48 -124 z" fill="#141414"/>
+  </g>
+      <path d="M108 70 h298 a12 12 0 0 1 12 12 v196 a12 12 0 0 1 -12 12 h-298 l-42 -108 z"
+            fill="none" stroke="#F6F1EA" stroke-width="3"/>
+      <circle cx="86" cy="180" r="11" fill="#ffffff"/>
+      <circle cx="86" cy="180" r="15" fill="none" stroke="#F6F1EA" stroke-width="2"/>
+      <text x="254" y="116" font-family="Montserrat" font-weight="800" font-size="15" fill="#F6F1EA" text-anchor="middle" letter-spacing="1">I ONLY GET OUT OF BED</text>
+      <text x="254" y="156" font-family="Montserrat" font-weight="900" font-size="32" fill="#B0DCE2" text-anchor="middle" letter-spacing="2">ON POW DAYS</text>
+      <path d="M150 172 h208" stroke="#F6F1EA" stroke-width="1.5" stroke-opacity=".6"/>
+      <text x="254" y="198" font-family="Montserrat" font-weight="800" font-size="13" fill="#F6F1EA" text-anchor="middle" letter-spacing="4">ONE MONTH WITH</text>
+      <image href="file:///workspace/nn-merch/wm-cream.png" x="192.0" y="204" width="124" height="49.6"/>
+      <text x="254" y="282" font-family="Montserrat" font-weight="800" font-size="12" fill="#B0DCE2" text-anchor="middle" letter-spacing="4">HOKKAIDO · JAPAN</text>
+  </svg>
