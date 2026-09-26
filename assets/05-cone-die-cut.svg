@@ -15,6 +15,6 @@
     <image href="file:///workspace/nn-merch/wm-teal.png" x="153.0" y="168" width="174" height="69.6"/>
     
     <path d="M70 252 h340" stroke="#F6F1EA" stroke-width="2" stroke-opacity=".35"/>
-    <text x="240" y="292" font-family="Montserrat" font-weight="900" font-size="15.483" fill="#F6F1EA" text-anchor="middle" letter-spacing="4.241" data-fit="300">STAY A MONTH OR MORE</text>
+    <text x="240" y="292" font-family="Montserrat" font-weight="900" font-size="17.547" fill="#F6F1EA" text-anchor="middle" letter-spacing="4.806" data-fit="340">STAY A MONTH OR MORE</text>
     <text x="240" y="322" font-family="Montserrat" font-weight="800" font-size="14" fill="#B0DCE2" text-anchor="middle" letter-spacing="4">HOKKAIDO, JAPAN</text>
   </svg>

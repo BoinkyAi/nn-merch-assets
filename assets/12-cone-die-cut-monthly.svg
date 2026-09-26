@@ -15,6 +15,6 @@
     <image href="file:///workspace/nn-merch/wm-teal.png" x="153.0" y="168" width="174" height="69.6"/>
     <text x="240" y="266" font-family="'Noto Sans JP'" font-weight="900" font-size="20" fill="#F6F1EA" text-anchor="middle" letter-spacing="7">ニセコノマド</text>
     <path d="M70 280 h340" stroke="#F6F1EA" stroke-width="2" stroke-opacity=".35"/>
-    <text x="240" y="316" font-family="Montserrat" font-weight="900" font-size="13.517" fill="#F6F1EA" text-anchor="middle" letter-spacing="3.974" data-fit="300">MONTHLY ACCOMMODATION</text>
+    <text x="240" y="316" font-family="Montserrat" font-weight="900" font-size="15.320" fill="#F6F1EA" text-anchor="middle" letter-spacing="4.504" data-fit="340">MONTHLY ACCOMMODATION</text>
     <text x="240" y="344" font-family="Montserrat" font-weight="800" font-size="14" fill="#B0DCE2" text-anchor="middle" letter-spacing="4">HOKKAIDO, JAPAN</text>
   </svg>
