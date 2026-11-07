@@ -85,6 +85,11 @@
    no letters under 6.4&nbsp;mm, cream + light-blue thread. Send the seller the PNG (or SVG) at the size shown.</p>
 <div class="sheets" id="beanies"></div>
 
+<div class="band"><h2>Leather patch (laser-burned)</h2><span></span></div>
+<p class="lead">One-tone designs for the tan leather patch on the navy beanie — black in the files = burned.
+   Patch about 6.6 × 4.3&nbsp;cm; every design fits inside the stitching.</p>
+<div class="sheets" id="patches"></div>
+
 <div class="band"><h2>Stickers</h2><span></span></div>
 
 <div class="bar">
@@ -157,7 +162,16 @@ const BEANIES = [
   ['beanie-05-katakana','5 · Katakana','2 thread colours · 9.1 × 4.1 cm'],
   ['beanie-06-pow-days-only','6 · Pow Days Only','2 thread colours · 9.1 × 3.6 cm'],
 ];
+const PATCHES = [
+  ['patch-01-the-logo','1 · The Logo','Full logo, cabin + trees · burned area 4.4 × 3.1 cm'],
+  ['patch-02-yotei-crest','2 · Yotei Crest','Burned area 4.8 × 3.1 cm'],
+  ['patch-03-wordmark','3 · Wordmark','With HOKKAIDO · JAPAN · burned area 5.4 × 2.7 cm'],
+  ['patch-04-monthly-stays','4 · Monthly Stays Badge','Burned area 4.7 × 3.1 cm'],
+  ['patch-05-katakana','5 · Katakana','Burned area 5.4 × 2.6 cm'],
+  ['patch-06-pow-days-only','6 · Pow Days Only','Burned area 5.4 × 2.3 cm'],
+];
 const SHEETS = [
+  ['leather-patch','Leather patch','Six laser-burn designs on the navy beanie patch'],
   ['beanie-embroidery','Beanie embroidery','Six thread-ready logos on the black cuffed beanie'],
   ['stickers6','All nine together','The full set on one sheet'],
   ['yotei','Logo + Mt Yotei lockups','Six ways to lock the volcano to the wordmark, then applied'],
@@ -190,6 +204,12 @@ stickers.innerHTML = GROUPS.map(([title, note, items]) => `
   </div>`).join('');
 logos.innerHTML = LOGOS.map(([s, t, n]) => card(s, t, n, false)).join('');
 beanies.innerHTML = BEANIES.map(([s, t, n]) => `
+  <div class="card">
+    <div class="tile"><img src="assets/${s}-mockup.jpg" alt="${t}" loading="lazy"></div>
+    <div class="meta"><h3>${t}</h3><p>${n}</p></div>
+    <div class="dl"><a href="assets/${s}.png" download>PNG</a><a href="assets/${s}.svg" download>SVG</a></div>
+  </div>`).join('');
+patches.innerHTML = PATCHES.map(([s, t, n]) => `
   <div class="card">
     <div class="tile"><img src="assets/${s}-mockup.jpg" alt="${t}" loading="lazy"></div>
     <div class="meta"><h3>${t}</h3><p>${n}</p></div>
