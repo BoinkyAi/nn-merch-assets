@@ -85,6 +85,10 @@
    no letters under 6.4&nbsp;mm, cream + light-blue thread. Send the seller the PNG (or SVG) at the size shown.</p>
 <div class="sheets" id="beanies"></div>
 
+<div class="band"><h2>Printed patch (black twill)</h2><span></span></div>
+<p class="lead">Full-colour heat-transfer print for the black twill patch on the black beanie. Each PNG is transparent and cut to the seller's red box (1.1 : 1) — upload it as is.</p>
+<div class="sheets" id="printpatches"></div>
+
 <div class="band"><h2>Leather patch (laser-burned)</h2><span></span></div>
 <p class="lead">One-tone designs for the tan leather patch on the navy beanie — black in the files = burned.
    Patch about 6.6 × 4.3&nbsp;cm; every design fits inside the stitching.</p>
@@ -162,6 +166,14 @@ const BEANIES = [
   ['beanie-05-katakana','5 · Katakana','2 thread colours · 9.1 × 4.1 cm'],
   ['beanie-06-pow-days-only','6 · Pow Days Only','2 thread colours · 9.1 × 3.6 cm'],
 ];
+const PRINTPATCHES = [
+  ['printpatch-cone','1 · Cone Sticker','Transparent PNG · 2200 × 2000'],
+  ['printpatch-badge-green','2 · Green Badge','Transparent PNG · 2200 × 2000'],
+  ['printpatch-badge-charcoal','3 · Charcoal Badge','Transparent PNG · 2200 × 2000'],
+  ['printpatch-full-logo','4 · Full Logo','Transparent PNG · 2200 × 2000'],
+  ['printpatch-crest-monthly','5 · Crest + Monthly Stays','Transparent PNG · 2200 × 2000'],
+  ['printpatch-katakana','6 · Katakana','Transparent PNG · 2200 × 2000'],
+];
 const PATCHES = [
   ['patch-01-the-logo','1 · The Logo','Full logo, cabin + trees · burned area 4.4 × 3.1 cm'],
   ['patch-02-yotei-crest','2 · Yotei Crest','Burned area 4.8 × 3.1 cm'],
@@ -171,6 +183,7 @@ const PATCHES = [
   ['patch-06-pow-days-only','6 · Pow Days Only','Burned area 5.4 × 2.3 cm'],
 ];
 const SHEETS = [
+  ['printed-patch','Printed patch','Six full-colour prints on the black twill patch'],
   ['leather-patch','Leather patch','Six laser-burn designs on the navy beanie patch'],
   ['beanie-embroidery','Beanie embroidery','Six thread-ready logos on the black cuffed beanie'],
   ['stickers6','All nine together','The full set on one sheet'],
@@ -208,6 +221,12 @@ beanies.innerHTML = BEANIES.map(([s, t, n]) => `
     <div class="tile"><img src="assets/${s}-mockup.jpg" alt="${t}" loading="lazy"></div>
     <div class="meta"><h3>${t}</h3><p>${n}</p></div>
     <div class="dl"><a href="assets/${s}.png" download>PNG</a><a href="assets/${s}.svg" download>SVG</a></div>
+  </div>`).join('');
+printpatches.innerHTML = PRINTPATCHES.map(([s, t, n]) => `
+  <div class="card">
+    <div class="tile"><img src="assets/${s}-mockup.jpg" alt="${t}" loading="lazy"></div>
+    <div class="meta"><h3>${t}</h3><p>${n}</p></div>
+    <div class="dl"><a href="assets/${s}.png" download>PNG</a></div>
   </div>`).join('');
 patches.innerHTML = PATCHES.map(([s, t, n]) => `
   <div class="card">
